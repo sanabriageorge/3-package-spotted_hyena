@@ -27,6 +27,10 @@ jobs:
          pip install pipenv build
          pipenv --python ${{ matrix.python-version }}
          pipenv sync --dev
+
+      - name: Install package
+        run: pipenv run pip install -e .
+
       - name: Run tests
         run: pipenv run pytest
 
