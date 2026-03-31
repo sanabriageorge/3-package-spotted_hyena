@@ -13,7 +13,7 @@ and other helpful messages to keep you focused and motivated.
 
 ## PyPI
 
-Install from PyPI: https://pypi.org/project/procastinatrix/0.1.1/
+Install from PyPI: https://pypi.org/project/procastinatrix
 
 ```bash
 pip install procastinatrix
